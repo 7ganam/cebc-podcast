@@ -17,8 +17,8 @@ export default function HomePageComponent(props) {
 
     return (
         <div>
-            <div id="title_header" style={{ marginTop: "100px ", marginBottom: "100px " }} >
-                CEBC BODCAST
+            <div id="title_header" style={{ marginTop: "150px ", marginBottom: "100px " }} >
+                CEBC PODCAST
                 <div>
                     <i class="fas fa-headphones"></i></div>
 
@@ -31,9 +31,12 @@ export default function HomePageComponent(props) {
                         <Card style={{ boxShadow: "rgb(0 0 0 / 10%) 0px 0px 9px 5px", padding: "8px" }} >
                             <CardImg top width="100%" src={p1} alt="Card image cap" />
                             <CardBody>
-                                <CardTitle tag="h5">Episode 12: Impact of COVID-19 on Public Transit and Shared Mobility in MENA </CardTitle>
+                                <CardTitle tag="h5">Season 2. Episode 2:</CardTitle>
+                                <CardSubtitle>
+                                    Impact of COVID-19 on Public Transit and Shared Mobility in MENA
+                                </CardSubtitle>
                                 <Link className="nav_link" to="/pod1">
-                                    <button type="button" class="btn btn-warning">
+                                    <button type="button" class="mt-2 btn btn-warning">
                                         Visit podcast
                                     <i class="ml-2 fas fa-headphones"></i>
                                     </button>
@@ -45,9 +48,12 @@ export default function HomePageComponent(props) {
                         <Card style={{ boxShadow: "rgb(0 0 0 / 10%) 0px 0px 9px 5px", padding: "8px" }} >
                             <CardImg top width="100%" src="2.png" alt="Card image cap" />
                             <CardBody>
-                                <CardTitle tag="h5">S2: Ep. 1: Electric Vehicles in MENA: Everything you need to know. </CardTitle>
+                                <CardTitle tag="h5">Season 2. Episode 1: </CardTitle>
+                                <CardSubtitle>
+                                    Electric Vehicles in MENA: Everything you need to know.
+                                </CardSubtitle>
                                 <Link className="nav_link" to="/pod2">
-                                    <button type="button" class="btn btn-warning">
+                                    <button type="button" class="mt-4 btn btn-warning">
                                         Visit podcast
                                     <i class="ml-2 fas fa-headphones"></i>
                                     </button>
@@ -60,10 +66,14 @@ export default function HomePageComponent(props) {
                         <Card style={{ boxShadow: "rgb(0 0 0 / 10%) 0px 0px 9px 5px", padding: "8px" }} >
                             <CardImg top width="100%" src="3.png" alt="Card image cap" />
                             <CardBody>
-                                <CardTitle tag="h5">Episode 12: Women in Clean Energy in MENA and the USA: Challenges and Opportunities Transcript
- </CardTitle>
+                                <CardTitle tag="h5">
+                                    Season 1. Episode 12:
+                                </CardTitle>
+                                <CardSubtitle>
+                                    Women in Clean Energy in MENA and the USA: Challenges and Opportunities Transcript
+                                </CardSubtitle>
                                 <Link className="nav_link" to="/pod3">
-                                    <button type="button" class="btn btn-warning">
+                                    <button type="button" class="mt-2 btn btn-warning">
                                         Visit podcast
                                     <i class="ml-2 fas fa-headphones"></i>
                                     </button>

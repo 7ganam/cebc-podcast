@@ -78,7 +78,7 @@ const NavbarComponent = (props) => {
                             <Nav className="ml-auto d-flex nav_list" navbar style={{ minHeight: "80px" }}>
                                 <NavItem className={props.location.pathname !== "/" ? '' : 'nav-link-selected'}>
                                     <Link className="nav_link" to="/">
-                                        Home
+                                        Podcasts
                                     </Link>
                                 </NavItem>
                             </Nav>

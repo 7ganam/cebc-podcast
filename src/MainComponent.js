@@ -7,6 +7,7 @@ import PodPage from "./PodPage/PodPage"
 
 import PodPage2 from "./PodPage2/PodPage"
 import PodPage3 from "./PodPage3/PodPage3"
+import ScrollToTopComponent from "./ScrollToTopComponent"
 
 export default function MainComponent() {
 
@@ -16,6 +17,8 @@ export default function MainComponent() {
         <div id="main_component" style={{ backgroundColor: "white", overflow: "hidden" }}>
             <div id="content_wrap">
                 <Router >
+                    <ScrollToTopComponent />
+
                     {/* the navbar has to be inside the router since it uses LINK component which runs only inside router component */}
                     <NavbarComponent />
 

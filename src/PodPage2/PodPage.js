@@ -4,7 +4,7 @@ function PodPage2() {
     return (
         <div style={{ minHeight: "500px" }}>
             <div style={{ marginTop: "200px" }}>
-                <iframe className="sound" style={{ minHeight: "300px", height: "200px" }} width="70%" height="100px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/981906451&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div
+                <iframe className="sound" style={{ minHeight: "300px", height: "200px", borderRadius: "20px" }} width="70%" height="100px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/981906451&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div
 
                 ><a href="https://soundcloud.com/user-404118386" title="CEBC MENA" target="_blank"
                     style={{ color: "#cccccc", textDecoration: "none" }}
