@@ -7,6 +7,8 @@ import PodPage from "./PodPage/PodPage"
 
 import PodPage2 from "./PodPage2/PodPage"
 import PodPage3 from "./PodPage3/PodPage3"
+import PodPage4 from "./PodPage4/PodPage4"
+
 import ScrollToTopComponent from "./ScrollToTopComponent"
 
 export default function MainComponent() {
@@ -24,7 +26,6 @@ export default function MainComponent() {
 
                     <Switch>
                         <Route exact path="/">
-
                             <HomePageComponent />
                         </Route>
                         <Route exact path="/pod1">
@@ -36,6 +37,10 @@ export default function MainComponent() {
                         <Route exact path="/pod3">
                             <PodPage3 />
                         </Route>
+                        <Route exact path="/pod4">
+                            <PodPage4 />
+                        </Route>
+
                     </Switch>
                 </Router>
             </div>

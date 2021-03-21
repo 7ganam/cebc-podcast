@@ -82,6 +82,32 @@ export default function HomePageComponent(props) {
                     </Col>
 
 
+
+                    <Col md={4} style={{ maxWidth: "300px", marginTop: "20px" }} >
+                        <Card style={{ boxShadow: "rgb(0 0 0 / 10%) 0px 0px 9px 5px", padding: "8px" }} >
+                            <CardImg top width="100%" src="4.png" alt="Card image cap" />
+                            <CardBody>
+                                <CardTitle tag="h5">
+                                    Season 2. Episode 3:
+                                </CardTitle>
+                                <CardSubtitle>
+                                    S2. Ep3: Alternative fuels and powertrains: MENA vs USA
+                                </CardSubtitle>
+                                <Link className="nav_link" to="/pod4">
+                                    <button type="button" class="mt-2 btn btn-warning">
+                                        Visit podcast
+                                    <i class="ml-2 fas fa-headphones"></i>
+                                    </button>
+                                </Link>
+                            </CardBody>
+                        </Card>
+                    </Col>
+
+
+
+
+
+
                 </Row>
             </Container>
         </div >
