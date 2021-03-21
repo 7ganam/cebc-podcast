@@ -40,12 +40,12 @@ function PodPage4() {
             </div>
 
 
-            <div style={{ width: '70%', margin: 'auto', marginTop: '50px', display: 'flex' , justifyContent:'center' }}>
+            <div style={{ width: '70%', margin: 'auto', marginTop: '50px', display: 'flex' , justifyContent:'center' , flexWrap:'wrap' }}>
 
 
                 <a href=" https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjg3MDY3Njg3Ni9zb3VuZHMucnNz/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMTAxMTc2MzcwNQ?sa=X&ved=0CAUQkfYCahcKEwiAtvmO5r7vAhUAAAAAHQAAAAAQAQ">
                     <div style={{
-                        height: '60px', minWidth: '250px', width: '300px', border: "1px solid #8080803d",
+                        height: '60px', minWidth: '250px', width: '300px' , maxWidth:'90%', border: "1px solid #8080803d",
                         borderRadius: "20px",
                         boxShadow: "0px 3px 0 0 #0000002b",
                         display: 'flex',
@@ -66,7 +66,7 @@ function PodPage4() {
                 <a href=" https://podcasts.apple.com/ae/podcast/cebc-mena/id1531090426#episodeGuid=tag%3Asoundcloud%2C2010%3Atracks%2F1011763705">
                     
                         <div style={{
-                            height: '60px', minWidth: '250px', width: '300px', border: "1px solid #8080803d",
+                            height: '60px', minWidth: '250px', width: '300px' , maxWidth:'90%', border: "1px solid #8080803d",
                             borderRadius: "20px",
                             boxShadow: "0px 3px 0 0 #0000002b",
                             display: 'flex',
