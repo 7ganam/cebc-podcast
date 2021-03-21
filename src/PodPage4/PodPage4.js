@@ -58,7 +58,7 @@ function PodPage4() {
                         <img src={'Google.png'} alt="google" style={{ height: '50px', width: 'auto', margin: '10px' }} />
 
                         <div className="pod_card_text">
-                            apple podcasts
+                            google podcasts
                         </div>
                     </div>
                 </a>
