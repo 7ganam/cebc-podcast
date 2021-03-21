@@ -93,7 +93,7 @@ function PodPage4() {
 
 
             <div style={{ marginTop: "50px", marginBottom: "50px" }}>
-                <div style={{ margin: "50px", width: "70%", margin: "auto" }}>
+                <div style={{ margin: "50px", width: "70%",minWidth:'300px', margin: "auto" }}>
                     <iframe id="serviceFrameSend" src="4.html" width="100%" height="1000px" frameborder="0">
                     </iframe>
                 </div>
