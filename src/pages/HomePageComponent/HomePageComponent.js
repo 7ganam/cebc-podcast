@@ -103,6 +103,26 @@ export default function HomePageComponent(props) {
                         </Card>
                     </Col>
 
+                    <Col md={4} style={{ maxWidth: "300px", marginTop: "20px" }} >
+                        <Card style={{ boxShadow: "rgb(0 0 0 / 10%) 0px 0px 9px 5px", padding: "8px" }} >
+                            <CardImg top width="100%" src="5.jpg" alt="Card image cap" />
+                            <CardBody>
+                                <CardTitle tag="h5">
+                                    Season 2. Episode 4:
+                                </CardTitle>
+                                <CardSubtitle>
+                                    S2. E4: Mobility Behavior in MENA vs USA (Car Pride)
+                                </CardSubtitle>
+                                <Link className="nav_link" to="/pod5">
+                                    <button type="button" class="mt-2 btn btn-warning">
+                                        Visit podcast
+                                    <i class="ml-2 fas fa-headphones"></i>
+                                    </button>
+                                </Link>
+                            </CardBody>
+                        </Card>
+                    </Col>
+
 
 
 

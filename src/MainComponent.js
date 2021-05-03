@@ -8,6 +8,8 @@ import PodPage from "./PodPage/PodPage"
 import PodPage2 from "./PodPage2/PodPage"
 import PodPage3 from "./PodPage3/PodPage3"
 import PodPage4 from "./PodPage4/PodPage4"
+import PodPage5 from "./PodPage5/PodPage5"
+
 
 import ScrollToTopComponent from "./ScrollToTopComponent"
 
@@ -39,6 +41,9 @@ export default function MainComponent() {
                         </Route>
                         <Route exact path="/pod4">
                             <PodPage4 />
+                        </Route>
+                        <Route exact path="/pod5">
+                            <PodPage5 />
                         </Route>
 
                     </Switch>
