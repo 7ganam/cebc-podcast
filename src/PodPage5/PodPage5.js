@@ -39,7 +39,7 @@ function PodPage5() {
             <div style={{ width: '70%', margin: 'auto', marginTop: '50px', display: 'flex' , justifyContent:'center' , flexWrap:'wrap' }}>
 
 
-                <a href="https://lnkd.in/dXD6Gyg">
+                <a href="https://lnkd.in/dc5R6ZA">
                     <div style={{
                         height: '60px', minWidth: '250px', width: '300px' , maxWidth:'90%', border: "1px solid #8080803d",
                         borderRadius: "20px",
